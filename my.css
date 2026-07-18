@@ -112,17 +112,19 @@ main { max-width: 980px; margin: 0 auto; padding: 108px 24px 80px; position: rel
 .hero .roles { margin: 0 0 14px; font-size: 15.5px; color: var(--ink-2); }
 .hero .roles b { color: var(--navy); font-weight: 600; }
 .hero .roles .amp { color: var(--gold); font-family: var(--font-serif); font-style: italic; padding: 0 6px; }
-.contact-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 20px; }
+.contact-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 20px; }
 .contact-row a {
-  font-size: 13px;
-  border: 1px solid var(--line);
-  background: var(--card);
-  border-radius: 999px;
-  padding: 5px 14px;
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
   color: var(--ink-2);
-  box-shadow: 0 1px 2px rgba(28, 28, 26, 0.04);
+  border: none;
+  border-radius: 8px;
+  transition: color 0.15s, transform 0.15s;
 }
-.contact-row a:hover { border-color: var(--gold); color: var(--navy); }
+.contact-row a svg { width: 20px; height: 20px; }
+.contact-row a:hover { color: var(--navy); transform: translateY(-1px); border: none; }
 .hero p.about { margin: 0; color: var(--ink-2); }
 .hero p.about + p.about { margin-top: 12px; }
 
