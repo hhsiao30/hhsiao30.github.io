@@ -207,19 +207,12 @@ main { max-width: 980px; margin: 0 auto; padding: 108px 24px 80px; position: rel
   place-items: center;
 }
 .pub .thumb img { width: 100%; height: 100%; object-fit: cover; }
-.pub h3 { font-size: 16.5px; margin: 0 0 6px; line-height: 1.4; }
-.pub .authors { font-size: 14px; color: var(--ink-2); margin: 0 0 4px; }
-.pub .authors strong { color: var(--ink); }
-.pub .venue { font-size: 13px; color: var(--ink-3); margin: 0 0 8px; }
-.pub .venue .award {
-  background: var(--gold-soft);
-  color: var(--gold);
-  font-weight: 600;
-  border-radius: 999px;
-  padding: 1px 10px;
-  margin-left: 8px;
-  white-space: nowrap;
-}
+.pub h3 { font-size: 16.5px; margin: 0 0 7px; line-height: 1.4; }
+.pub .authors { font-size: 14px; color: var(--ink); margin: 0 0 5px; line-height: 1.5; }
+.pub .authors strong { font-weight: 600; }
+.pub .venue { font-size: 13.5px; color: var(--ink-2); font-style: italic; margin: 0 0 9px; }
+.pub .venue strong { color: var(--navy); font-style: normal; font-weight: 600; }
+.pub .venue small { font-style: normal; color: var(--ink-3); font-size: 12.5px; }
 .pub .links a {
   font-size: 12.5px;
   letter-spacing: 0.05em;
