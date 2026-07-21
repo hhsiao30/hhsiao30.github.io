@@ -128,6 +128,53 @@ main { max-width: 980px; margin: 0 auto; padding: 108px 24px 80px; position: rel
 .hero p.about { margin: 0; color: var(--ink-2); }
 .hero p.about + p.about { margin-top: 12px; }
 
+/* ── news ─────────────────────────────────────────────────────────────── */
+.news {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.news li {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+  padding: 9px 2px;
+  border-bottom: 1px solid var(--line);
+  font-size: 14.5px;
+  color: var(--ink-2);
+}
+.news li:last-child { border-bottom: none; }
+.news .nd {
+  flex: 0 0 92px;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  color: var(--gold);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.news b { color: var(--ink); }
+
+/* nav active state (scrollspy) */
+.topnav a.active { color: var(--navy); font-weight: 600; }
+
+/* publications year dividers */
+.pub-year {
+  font-family: var(--font-serif);
+  font-size: 15px;
+  color: var(--ink-3);
+  letter-spacing: 0.12em;
+  margin: 26px 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.pub-year::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+
 /* ── experience timeline ─────────────────────────────────────────────── */
 .timeline { position: relative; margin-left: 8px; }
 .timeline::before {
