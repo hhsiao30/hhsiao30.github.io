@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,600;0,8..60,700;1,8..60,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="my.css?v=6">
+    <link rel="stylesheet" href="my.css?v=7">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9HPTG1544V"></script>
     <script>
@@ -30,7 +30,6 @@
         <div class="wrap">
             <a class="brand" href="#top">Hao-Hsiang Hsiao</a>
             <a href="#intro">About</a>
-            <a href="#news">News</a>
             <a href="#experience">Experience</a>
             <a href="#publication">Publications</a>
         </div>
@@ -74,16 +73,6 @@
                 </p>
             </div>
         </section>
-
-        <!-- ── news ─────────────────────────────────────────────────── -->
-        <h2 class="section-title" id="news">News</h2>
-        <ul class="news">
-            <li><span class="nd">Jun 2026</span>Joined <a href="https://www.ricursive.com" target="_blank" rel="noopener noreferrer">Ricursive Intelligence</a> as a Member of Technical Staff (Palo Alto, CA).</li>
-            <li><span class="nd">2026</span>C3PO received the <b>Best Paper Award</b> at ASP-DAC 2026.</li>
-            <li><span class="nd">2026</span>New papers: AI-assisted IC design in <i>IEEE Solid-State Circuits Magazine</i>; MapTuner at ICLAD 2026; two papers at ASP-DAC 2026.</li>
-            <li><span class="nd">Spring 2026</span>PhD research internship at NVIDIA, Design Automation (Santa Clara, CA).</li>
-            <li><span class="nd">2025</span>BUFFALO and an invited paper at ICCAD 2025; DCO-3D and InsightAlign at DAC 2025.</li>
-        </ul>
 
         <!-- ── experience ───────────────────────────────────────────── -->
         <h2 class="section-title" id="experience">Experience</h2>
@@ -317,7 +306,7 @@
     <script>
         (function () {
             var links = Array.prototype.slice.call(document.querySelectorAll(".topnav a:not(.brand)"));
-            var ids = ["intro", "news", "experience", "publication"];
+            var ids = ["intro", "experience", "publication"];
             var obs = new IntersectionObserver(function (entries) {
                 entries.forEach(function (e) {
                     if (!e.isIntersecting) return;
