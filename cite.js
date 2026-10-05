@@ -1,5 +1,13 @@
 /* Cite popup — Google-Scholar-style copyable BibTeX per publication. */
 const BIBS = {
+  xeg2027: `@inproceedings{chung2027xeg,
+  title={XEG: A GPU-parallel Algorithm for Efficient and Effective E-Graph Extraction},
+  author={Chung, Yi-Hua and Hsiao, Hao-Hsiang and Chiu, Cheng-Hsiang and Zhang, Boyang and Chang, Che and San Miguel, Joshua and Huang, Tsung-Wei},
+  booktitle={ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},
+  year={2027},
+  organization={ACM},
+  doi={10.1145/3845814.3850040}
+}`,
   mssc2026: `@article{lu2026aiassisted,
   title={AI-Assisted IC Design with Accelerated Computing and LLM-Driven Optimization},
   author={Lu, Yi-Chen and Hsiao, Hao-Hsiang and Liang, Rongjian and Ren, Haoxing},
