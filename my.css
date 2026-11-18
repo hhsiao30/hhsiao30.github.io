@@ -270,6 +270,8 @@ main { max-width: 980px; margin: 0 auto; padding: 108px 24px 80px; }
   transition: color 0.15s, border-color 0.15s, background-color 0.15s;
 }
 .pub .links a:hover { color: var(--navy); background: var(--navy-soft); border-color: rgba(0, 48, 87, 0.3); }
+.pub .links a.code-btn { gap: 6px; color: #fff; background: var(--navy); border-color: var(--navy); font-weight: 600; }
+.pub .links a.code-btn:hover { color: #fff; background: #00457d; border-color: #00457d; }
 
 /* ── BibTeX cite modal ───────────────────────────────────────────────── */
 #bib-modal {
